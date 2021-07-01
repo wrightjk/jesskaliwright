@@ -1,0 +1,142 @@
+/*
+color palette 
+pinky orange: #F8A46F;
+orange: #CF904E;
+off-white: #EFEFEF;
+*/
+
+/* general body css */
+body {
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background-color: #EFEFEF;
+}
+
+figure {
+	display: table;
+	width: 1px;
+}
+
+/* makes figcaption match width of fig img */
+img, figcaption {
+	display: table-row;
+}
+
+img {
+	padding-bottom: 1em;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+li {
+	font-weight: 400;
+	font-size: 1.2vw;
+}
+
+a {
+	text-decoration: none;
+	color: #F8A46F;
+}
+
+a:hover {
+	color: #CF904E;
+}
+
+/* headings */
+h1 {
+	font-weight: 300;
+	padding-left: .8em;
+	padding-top: .8em;
+}
+
+h2 {
+	color: #F8A46F;
+}
+
+h3 {
+	color: #CF904E;
+}
+
+h4 {
+	font-weight: 300;
+}
+
+/* classes */
+.header {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+
+.text-right {
+	padding-left: 2em;
+	font-size: 1.2vw;
+}
+
+.programs-used {
+	font-weight: 400;
+	font-style: italic;
+}
+
+.space-right {
+	padding-right: .7em;
+}
+
+.nav-link {
+	color: #F8A46F;
+}
+
+.nav-link:hover {
+	color: #CF904E;
+}
+
+.hSpace {
+	padding-left: 2em;
+}
+
+/* IDs */
+#about {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5em;
+}
+
+#design-samples {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+#social-certs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:  space-evenly;
+	align-items: center;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+#copy-about {
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+#writing-samples {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
